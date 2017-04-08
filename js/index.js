@@ -1,7 +1,7 @@
 var countstar=0,java=0,js=0,css=0,php=0,ruby=0,cpp=0,c=0,shell=0,others=0,chash=0,oc=0,r=0,viml=0,go=0,perl=0,cs=0,tex=0,swift=0,scala=0,clojure=0,rust=0,ps=0;
 var lang,total=0;
 $(function(){
-  $(document).keypress(function(e)) {
+  $(document).keypress(function(e) {
      if(e.which === 13) {
        e.preventDefault();
     $('#ghapidata').html('<div id="loader"><img src="http://i.imgur.com/UqLN6nl.gif" alt="loading..."></div>');
